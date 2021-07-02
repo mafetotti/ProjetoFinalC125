@@ -1,26 +1,26 @@
 package br.projeto.inatel.vingadores;
 
 
-public class CapitãoAmérica extends Heróis {
+public class CapitaoAmerica extends Herois {
 
-	public CapitãoAmérica(String nome, String poder, float força) {
-		super(nome,poder,força);
+	public CapitaoAmerica(String nome, String poder, float forca) {
+		super(nome,poder,forca);
 	}
 
 	@Override
 	public void SofrendoAtaque() {
-		força -= 10;
+		forca -= 10;
 	}
 	
 	public void AtacandoThanos() {
-		força+= 20;
+		forca+= 20;
 	}
 	
 	@Override
 	public void mostrainfo() {
 		System.out.println("Nome: " + nome + "\n"
 				+ "Poder: " + poder + "\n"
-				+ "Força: " + força);
+				+ "Força: " + forca);
 }
 	
 }

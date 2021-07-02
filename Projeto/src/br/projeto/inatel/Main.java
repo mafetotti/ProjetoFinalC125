@@ -1,6 +1,6 @@
 package br.projeto.inatel;
 
-import br.projeto.inatel.vilões.*;
+import br.projeto.inatel.viloes.*;
 import br.projeto.inatel.vingadores.*;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -13,11 +13,11 @@ public class Main {
 	public static void main(String[] args) {
 
 		Thor Thor = new Thor("Thor", "Martelo", 100);
-		CapitãoAmérica CapitaoAmerica = new CapitãoAmérica("Steve Rogers", "Super Força", 100);
-		GaviãoArqueiro GaviãoArqueiro = new GaviãoArqueiro("Clint Barton", "Habilidade em atirar com arco e flexa",
+		CapitaoAmerica CapitaoAmerica = new CapitaoAmerica("Steve Rogers", "Super Força", 100);
+		GaviaoArqueiro GaviaoArqueiro = new GaviaoArqueiro("Clint Barton", "Habilidade em atirar com arco e flexa",
 				100);
 		Hulk Hulk = new Hulk("Bruce Banner", "Incontrolável força", 100);
-		ViúvaNegra ViúvaNegra = new ViúvaNegra("Natasha  Romanoff", "habilidade em lutar", 100);
+		ViuvaNegra ViuvaNegra = new ViuvaNegra("Natasha  Romanoff", "habilidade em lutar", 100);
 		HomemDeFerro HomemDeFerro = new HomemDeFerro("Tony Stark", "Inteligência", 100);
 		Thanos Thanos = new Thanos("Thanos", "Super força", 100);
 
@@ -33,9 +33,9 @@ public class Main {
 		
 		Thor.mostrainfo();
 		CapitaoAmerica.mostrainfo();
-		GaviãoArqueiro.mostrainfo();
+		GaviaoArqueiro.mostrainfo();
 		Hulk.mostrainfo();
-		ViúvaNegra.mostrainfo();
+		ViuvaNegra.mostrainfo();
 		HomemDeFerro.mostrainfo();
 		Thanos.mostrainfo();
 
@@ -44,7 +44,7 @@ public class Main {
 
 		Thanos.AtacandoVingadores();
 		CapitaoAmerica.SofrendoAtaque();
-		ViúvaNegra.SofrendoAtaque();
+		ViuvaNegra.SofrendoAtaque();
 
 		CapitaoAmerica.AtacandoThanos();
 		Thanos.SofrendoAtaque();
@@ -53,9 +53,9 @@ public class Main {
 		Thanos.SofrendoAtaque();
 
 		Thanos.AtacandoVingadores();
-		ViúvaNegra.SofrendoAtaque();
+		ViuvaNegra.SofrendoAtaque();
 		HomemDeFerro.SofrendoAtaque();
-		GaviãoArqueiro.SofrendoAtaque();
+		GaviaoArqueiro.SofrendoAtaque();
 
 		try {
 			Thanos.CapturandoJoias(4);

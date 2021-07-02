@@ -4,12 +4,12 @@ public abstract class Marvel {
 	
 	protected String nome;
 	protected String poder;
-	protected float força;
+	protected float forca;
 	
-	public Marvel(String nome, String poder, float força) {
+	public Marvel(String nome, String poder, float forca) {
 		this.nome = nome;
 		this.poder= poder;
-		this.força = força;
+		this.forca = forca;
 	}
 
 	public abstract void SofrendoAtaque();

@@ -1,25 +1,25 @@
 package br.projeto.inatel.vingadores;
 
-public class ViúvaNegra extends Heróis {
+public class ViuvaNegra extends Herois {
 
-	public ViúvaNegra(String nome, String poder, float força) {
-		super(nome,poder,força);
+	public ViuvaNegra(String nome, String poder, float forca) {
+		super(nome,poder,forca);
 	}
 
 	@Override
 	public void SofrendoAtaque() {
-		força-=10;
+		forca-=10;
 		
 	}
 	
 	public void AtacandoThanos() {
-		força+= 10;
+		forca+= 10;
 	}
 	
 	@Override
 	public void mostrainfo() {
 		System.out.println("Nome: " + nome + "\n"
 				+ "Poder: " + poder + "\n"
-				+ "Força: " + força);
+				+ "Força: " + forca);
 }
 }

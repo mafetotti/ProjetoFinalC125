@@ -1,6 +1,6 @@
 package br.projeto.inatel.vingadores;
 
-public class Thor extends Heróis {
+public class Thor extends Herois {
 
 	public Thor(String nome, String poder, float força) {
 		super(nome,poder,força);
@@ -8,19 +8,19 @@ public class Thor extends Heróis {
 
 	@Override
 	public void SofrendoAtaque() {
-		força-=10;
+		forca-=10;
 		
 	}
 	
 	public void AtacandoThanos() {
-		força+= 30;
+		forca+= 30;
 	}
 	
 	@Override
 	public void mostrainfo() {
 		System.out.println("Nome: " + nome + "\n"
 				+ "Poder: " + poder + "\n"
-				+ "Força: " + força);
+				+ "Força: " + forca);
 }
 	
 	

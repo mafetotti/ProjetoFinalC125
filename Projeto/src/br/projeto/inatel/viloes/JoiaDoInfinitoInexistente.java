@@ -1,4 +1,4 @@
-package br.projeto.inatel.vilões;
+package br.projeto.inatel.viloes;
 
 public class JoiaDoInfinitoInexistente extends Exception {
 

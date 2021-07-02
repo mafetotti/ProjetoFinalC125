@@ -1,16 +1,16 @@
-package br.projeto.inatel.vilões;
+package br.projeto.inatel.viloes;
 
 
-public class Thanos extends Vilões {
+public class Thanos extends Viloes {
 	
 	int JoiaDoInfinito;
 
-	public Thanos(String nome, String poder, float força) {
-		super(nome, poder, força);
+	public Thanos(String nome, String poder, float forca) {
+		super(nome, poder, forca);
 	}
 
 	public void AtacandoVingadores() {
-		 força += 10;
+		 forca += 10;
 	}
 	
 	public void CapturandoJoias(int joia) throws JoiaDoInfinitoInexistente {
@@ -32,7 +32,7 @@ public class Thanos extends Vilões {
 
 	@Override
 	public void SofrendoAtaque() {
-		força-= 20;
+		forca-= 20;
 		
 	}
 	
@@ -40,7 +40,7 @@ public class Thanos extends Vilões {
 	public void mostrainfo() {
 		System.out.println("Nome: " + nome + "\n"
 				+ "Poder: " + poder + "\n"
-				+ "Força: " + força);
+				+ "Força: " + forca);
 }
 	
 	

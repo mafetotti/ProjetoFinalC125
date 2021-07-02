@@ -1,18 +1,18 @@
 package br.projeto.inatel.vingadores;
 
-public class GaviãoArqueiro extends Heróis {
+public class GaviaoArqueiro extends Herois {
 
-	public GaviãoArqueiro(String nome, String poder, float força) {
-		super(nome,poder,força);
+	public GaviaoArqueiro(String nome, String poder, float forca) {
+		super(nome,poder,forca);
 	}
 
 	@Override
 	public void SofrendoAtaque() {
-		força-= 10;
+		forca-= 10;
 	}
 	
 	public void AtacandoThanos() {
-		força+= 5;
+		forca+= 5;
 	}
 	
 	@Override
@@ -20,6 +20,6 @@ public class GaviãoArqueiro extends Heróis {
 		System.out.println("Nome: " + nome + "\n"
 				+ "Poder: " + poder + "\n"
 				+ ""
-				+ "Força: " + força);
+				+ "Força: " + forca);
 }
 }
