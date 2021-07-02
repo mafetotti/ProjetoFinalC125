@@ -6,8 +6,10 @@ Ele foi baseado no filme Vingadores Guerra Infinita onde os vingadores lutam con
 Os vingadores não tem sucesso e acabam sendo derrotados, porém em Vingadores Ultimato eles dão uma reviravolta incrível e conseguem vencer Thanos.
 
 <p align="center">
-  <img src="vingadores-guerra-infinita.jpg">
+  <img src="imagens-dos-filmes.jpeg">
 </p>
+
+
 
 ## Critérios
 Foram feitas algumas aplicações no projeto com base na ementa curricular de C125 como:
